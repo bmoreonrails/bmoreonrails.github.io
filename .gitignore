@@ -1,6 +1,6 @@
-public/index.html
-public/members.html
-public/past_meetups.html
-public/railsconf.html
-public/praise.html
-_site
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/bundle/
+.DS_Store

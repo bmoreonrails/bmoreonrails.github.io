@@ -1,38 +1,17 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <link href="bmoreonrails.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="tipsy.css" rel="stylesheet" type="text/css" />
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-  <script src="underscore-min.js"></script>
-  <script src="members.js"></script>
-</head>
-<body>
-  <div id="pageContainer">
-    <h1 class="headline">B'more on Rails is a community of Baltimore folks who use the Ruby programming language and the Ruby on Rails application framework.</h1>
-    <h2 class="headline">We meet weekly... <a href="http://www.meetup.com/bmore-on-rails">join us</a>!
-    <div id="rightSide">
-      <h2>Who we are
-        <div class="members-array">
-        </div>
-        <br class="clear" />
-      </h2>
-      <h2>Where to find us</h2>
-      <ul class="locations">
-        <li>On IRC</li>
-        <li>Email lists, RSVPs, photos, etc on our</li>
-        <li>Meetings at</li>
-        <li>Hack nights at</li>
-        <li>Pub nights at</li>
-      </ul>
-      <div>
-        <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?hl=en&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;msa=0&amp;msid=102224870072496563240.000483a8986e9de0b3bc1&amp;ll=39.285553,-76.59153&amp;spn=0.046507,0.072956&amp;z=14&amp;output=embed" frameborder="0" height="300" width="480" />
-        <br>
-        <p>View this map larger</p>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+---
+layout: default
+title: "Home"
+---
+<h1 class="headline">
+  B'more on Rails is a community of Baltimore folks who use the Ruby programming language and the Ruby on Rails application framework.
+</h1>
+<h2 class="headline">
+  We meet monthly... <a href="https://luma.com/bmore-on-rails?">join us</a>!
+</h2>
 
-
+<div id="footer">
+  <p>
+    &copy; {{ "now" | date: "%Y" }} B'more On Rails | Logo by
+    <a href="http://www.craftwork.net">Charles Martucci / Craftwork</a>
+  </p>
+</div>

@@ -1,5 +1,5 @@
-source :rubygems
+source "https://rubygems.org"
 
-gem 'haml'
-gem 'httparty'
-gem 'hashie'
+ruby "3.3.7"
+
+gem "jekyll", "~> 4.3"
